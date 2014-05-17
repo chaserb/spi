@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+         xmlns:s="library://ns.adobe.com/flex/spark" 
+         xmlns:mx="library://ns.adobe.com/flex/mx">
+   <fx:Declarations>
+   </fx:Declarations>
+   
+   <s:TextArea id="textArea" width="100%" height="100%" textAlign="center" verticalAlign="middle" 
+               text="This is where you review completed orders for quality control.  Inspection results, their photos, and any differences from the previous inspection will be visible on this page.  If there are problems with the order, you may update the order from this page.  Otherwise, you may submit the orders from this page if everything looks good."/>
+      
+</s:Group>

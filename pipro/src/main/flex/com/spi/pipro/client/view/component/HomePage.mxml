@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+         xmlns:s="library://ns.adobe.com/flex/spark" 
+         xmlns:mx="library://ns.adobe.com/flex/mx">
+   <fx:Declarations>
+      <mx:SolidColor id="_sc1" color="red" alpha=".5"/>
+      <mx:SolidColor id="_sc2" color="blue" alpha=".5"/>
+      <mx:SolidColorStroke id="_s1" color="red" weight="2"/>
+      <mx:SolidColorStroke id="_s2" color="blue" weight="2"/>
+   </fx:Declarations>
+
+   <s:layout>
+      <s:VerticalLayout/>
+   </s:layout>
+   
+   <s:Label text="Orders by Due Date" fontSize="14" fontWeight="bold" textAlign="center" width="100%"/>
+   
+   <mx:ColumnChart id="chart1" height="45%" width="100%" paddingLeft="80" paddingRight="80">
+      <mx:horizontalAxis>
+         <mx:CategoryAxis id="axis1" categoryField="DaysOut"/>
+      </mx:horizontalAxis>
+      <mx:series>
+         <mx:ColumnSeries id="series1" xField="DaysOut" yField="NumOrders" fill="{_sc1}" stroke="{_s1}"/>
+      </mx:series>
+   </mx:ColumnChart>
+   
+   <s:Label text="Orders by Type" fontSize="14" fontWeight="bold" textAlign="center" width="100%"/>
+   
+   <mx:ColumnChart id="chart2" height="45%" width="100%" paddingLeft="80" paddingRight="80">
+      <mx:horizontalAxis>
+         <mx:CategoryAxis id="axis2" categoryField="Type"/>
+      </mx:horizontalAxis>
+      <mx:series>
+         <mx:ColumnSeries id="series2" xField="Type" yField="NumOrders" fill="{_sc2}" stroke="{_s2}"/>
+      </mx:series>
+   </mx:ColumnChart>
+   
+</s:Group>

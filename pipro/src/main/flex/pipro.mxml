@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/mx" 
+               xmlns:component="com.spi.pipro.client.view.component.*"
+               creationComplete="creationCompleteHandler();"  width="100%" height="100%" xmlns:pipro="com.spi.pipro.*">
+   <fx:Style source="pipro.css"/>
+   
+   <fx:Declarations>
+      <pipro:PIProContext contextView="{this}"/>
+   </fx:Declarations>
+   
+   <fx:Metadata>
+      [Event(name="navigationBack", type="com.spi.pipro.client.view.event.NavigationEvent")]
+      [Event(name="navigationForward", type="com.spi.pipro.client.view.event.NavigationEvent")]
+   </fx:Metadata>
+   
+   <fx:Script>
+      <![CDATA[
+         import com.spi.pipro.PIProContext;
+         import com.spi.pipro.client.view.event.NavigationEvent;
+         
+//         private var _facade:PIProContext = PIProContext.getInstance(UIDUtil.createUID());
+         
+         [Embed('assets/cog.png')]
+         public var manage:Class;
+         
+         [Embed('assets/find.png')]
+         public var orders:Class;
+         
+         [Embed('assets/house.png')]
+         public var home:Class;
+         
+         [Embed('assets/page.png')]
+         public var reports:Class;
+         
+         [Embed('assets/user.png')]
+         public var user:Class;
+         
+         /* ------------------------- Event Handlers ------------------------ */ 
+         
+         protected function creationCompleteHandler():void
+         {
+//            _facade.startUp(this);
+         }
+         
+         protected function backClickHandler(event:MouseEvent):void
+         {
+            dispatchEvent(new NavigationEvent(NavigationEvent.NAVIGATION_BACK));
+         }
+         
+         protected function forwardClickHandler(event:MouseEvent):void
+         {
+            dispatchEvent(new NavigationEvent(NavigationEvent.NAVIGATION_FORWARD));
+         }
+      ]]>
+   </fx:Script>
+
+   <component:TreeNavigator id="treeNavigator" left="10" top="40" bottom="40" width="218"/>
+   
+   <mx:MenuBar top="0" left="0" right="0" height="30"/>
+   <mx:MenuBar left="0" right="0" bottom="0" height="30"/>
+
+   <s:Label text="Property Inspector Pro" left="10" fontSize="17" top="9"/>
+   <mx:Button top="5" id="backNav" width="35" right="230" icon="@Embed('assets/arrow_left.png')" disabledIcon="@Embed('assets/arrow_left_disable.png')" enabled="false" click="backClickHandler(event)"/>
+   <mx:Button top="5" id="forwardNav" width="35" right="190" icon="@Embed('assets/arrow_right.png')" disabledIcon="@Embed('assets/arrow_right_disable.png')" enabled="false" click="forwardClickHandler(event)"/>
+   <s:TextInput id="searchInput" top="5" right="10" width="170" text="Search..."/>
+   <mx:LinkButton label="Logout" top="5" right="270"/>
+   <mx:LinkButton label="Welcome Lindsey!" top="5" textAlign="right" right="325"/>
+   <mx:Image id="statusIcon" left="5" bottom="5" height="16" width="16"/>
+   <s:Label id="statusText" left="25" bottom="5" width="60%"/>
+   
+</s:Application>

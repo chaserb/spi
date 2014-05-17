@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+         xmlns:s="library://ns.adobe.com/flex/spark" 
+         xmlns:mx="library://ns.adobe.com/flex/mx">
+   <fx:Declarations>
+   </fx:Declarations>
+   
+   <s:TextArea id="textArea" width="100%" height="100%" textAlign="center" verticalAlign="middle" 
+               text="This is the page where you may see all of the orders dispatched to you, or to a subcontractor. You may complete any of these orders by entering data and uploading photos.  Normally, however, this would be taken care of by the subcontractor who will complete the order from the field."/>
+      
+</s:Group>

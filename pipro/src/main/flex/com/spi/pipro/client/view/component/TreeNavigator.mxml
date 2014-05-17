@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Tree xmlns:fx="http://ns.adobe.com/mxml/2009" 
+         xmlns:s="library://ns.adobe.com/flex/spark" 
+         xmlns:mx="library://ns.adobe.com/flex/mx"
+         labelField="@label"
+         iconField="@icon"
+         showRoot="false" 
+         allowMultipleSelection="false"
+         allowDragSelection="false"
+         change="selectionChanged(event)">
+   
+   <fx:Metadata>
+      [Event(name="navigationTargetSelected", type="com.spi.pipro.client.view.event.NavigationEvent")]
+   </fx:Metadata>
+   
+   <fx:Script>
+      <![CDATA[
+         import com.spi.pipro.client.view.event.NavigationEvent;
+         
+         import mx.collections.IList;
+         import mx.events.ListEvent;
+         
+         /**
+          * Handler for changes in the tree model's selection target.
+          */ 
+         public function selectionChanged(e:ListEvent):void
+         {
+            // If the selected node has a "id" property, assume that is the 
+            // value of the desired navigation target and send off a 
+            // notification to the mediator.
+            if (selectedItem.hasOwnProperty("@id"))
+            {
+               dispatchEvent(new NavigationEvent(NavigationEvent.NAVIGATION_TARGET_SELECTED));
+            }
+         }
+      ]]>
+   </fx:Script>
+   
+</mx:Tree>

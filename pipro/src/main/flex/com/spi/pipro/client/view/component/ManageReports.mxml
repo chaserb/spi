@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+         xmlns:s="library://ns.adobe.com/flex/spark" 
+         xmlns:mx="library://ns.adobe.com/flex/mx">
+   <fx:Declarations>
+   </fx:Declarations>
+   
+   <s:TextArea id="textArea" width="100%" height="100%" textAlign="center" verticalAlign="middle" 
+               text="On this page, you may create custom reports and view their results.  If you like a particular report and think you'll run it again, you may save it so that it shows up in the tree on the left."/>
+      
+</s:Group>

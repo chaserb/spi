@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:HGroup xmlns:fx="http://ns.adobe.com/mxml/2009" 
+          xmlns:s="library://ns.adobe.com/flex/spark" 
+          xmlns:mx="library://ns.adobe.com/flex/mx"
+          xmlns:c="com.spi.pipro.client.view.component.*"
+          width="100%"
+          height="100%">
+   
+   <fx:Metadata>
+      [Event(name="personAdd", type="com.spi.pipro.client.view.event.PeopleEvent")]
+      [Event(name="personDelete", type="com.spi.pipro.client.view.event.PeopleEvent")]
+      [Event(name="personSave", type="com.spi.pipro.client.view.event.PeopleEvent")]
+      [Event(name="personCancel", type="com.spi.pipro.client.view.event.PeopleEvent")]
+      [Event(name="personSelect", type="com.spi.pipro.client.view.event.PeopleEvent")]
+      [Event(name="personPropertyChanged", type="com.spi.pipro.client.view.event.PeopleEvent")]
+      [Event(name="personPropertyCommitted", type="com.spi.pipro.client.view.event.PeopleEvent")]
+   </fx:Metadata>
+   
+   <fx:Script>
+      <![CDATA[
+         import com.spi.pipro.client.model.vo.PersonVO;
+         import com.spi.pipro.client.util.Constants;
+         import com.spi.pipro.client.view.ManagePeopleMediator;
+         import com.spi.pipro.client.view.event.PeopleEvent;
+         
+         import mx.collections.ArrayCollection;
+         import mx.events.FlexEvent;
+         
+         import spark.events.TextOperationEvent;
+         
+         [Bindable]
+         public var people:ArrayCollection = new ArrayCollection(); // of PersonVO
+         
+         [Bindable]
+         public var person:PersonVO = new PersonVO();
+         
+         protected function changeHandler(event:TextOperationEvent):void
+         {
+            dispatchEvent(new PeopleEvent(PeopleEvent.PERSON_PROPERTY_CHANGED, event.target.id));
+         }
+         
+         protected function valueCommitHandler(event:FlexEvent):void
+         {
+            dispatchEvent(new PeopleEvent(PeopleEvent.PERSON_PROPERTY_COMMITTED, event.target.id));
+         }
+      ]]>
+   </fx:Script>
+   
+   <s:states>
+      <s:State name="selectPerson"/>
+      <s:State name="editPerson"/>
+   </s:states> 
+   
+   <s:transitions>
+      <s:Transition id="myTransition" fromState="*" toState="*">
+        <s:Fade duration="500" targets="{[addButton,deleteButton,saveButton,cancelButton,personViewStack,personTabBar]}"/>            
+      </s:Transition>
+   </s:transitions>
+   
+   <!-- Master Panel -->
+   <s:Group id="masterPanel" height="100%" width="50%">
+      <mx:Image top="10" left="10" height="32" width="32" source="@Embed('assets/user.png')"/>
+      <s:Label top="10" left="50" text="Manage People" fontSize="25" fontWeight="bold"/>
+      
+      <!-- List of people -->
+      <mx:DataGrid id="peopleList" dataProvider="{people}" height="300" top="50" left="10" right="10" 
+                   allowMultipleSelection="false" change="dispatchEvent(new PeopleEvent(PeopleEvent.PERSON_SELECT))">
+         <mx:columns>
+            <mx:DataGridColumn headerText="User Name" dataField="userName"/>
+            <mx:DataGridColumn headerText="First Name" dataField="firstName"/>
+            <mx:DataGridColumn headerText="Last Name" dataField="lastName"/>
+            <mx:DataGridColumn headerText="Email" dataField="email.email"/>
+         </mx:columns>
+      </mx:DataGrid>
+      <mx:Button id="addButton" icon="@Embed('assets/add.png')" disabledIcon="@Embed('assets/add_disable.png')" 
+                 label="Add New Person" y="375" horizontalCenter="-75" 
+                 click="dispatchEvent(new PeopleEvent(PeopleEvent.PERSON_ADD))"/>
+      <mx:Button id="deleteButton" icon="@Embed('assets/cross.png')" disabledIcon="@Embed('assets/cross_disable.png')" 
+                 label="Remove Person" y="375" horizontalCenter="75" enabled="false"
+                 click="dispatchEvent(new PeopleEvent(PeopleEvent.PERSON_DELETE))"/>
+   </s:Group>
+   
+   <!-- Detail Panel -->
+   <s:Group id="detailPanel" height="100%" width="50%">
+      <s:TabBar id="personTabBar" dataProvider="{personViewStack}" includeIn="editPerson" left="10" top="50"/>
+      <mx:ViewStack id="personViewStack" includeIn="editPerson" left="10" right="10" top="75" height="275" borderStyle="solid" creationPolicy="all">
+         <s:NavigatorContent id="account" label="Account">
+            <mx:Form id="accountForm" labelWidth="120">
+               <mx:FormItem label="First Name" required="true">
+                  <s:TextInput id="firstNameInput" text="@{person.firstName}" restrict="{Constants.NAME_RESTRICT}"
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+               <mx:FormItem label="Last Name" required="true">
+                  <s:TextInput id="lastNameInput" text="@{person.lastName}" restrict="{Constants.NAME_RESTRICT}"
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+               <mx:FormItem label="User Name" required="true">
+                  <s:TextInput id="userNameInput" text="@{person.userName}" restrict="{Constants.USER_NAME_RESTRICT}"
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+               <mx:FormItem label="Password">
+                  <s:TextInput id="passwordInput" text="{(person.password) ? ManagePeopleMediator.PASSWORD_FACADE : null}" displayAsPassword="true"
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+               <mx:FormItem label="Confirm Password">
+                  <s:TextInput id="passwordConfirmInput" text="{(person.password) ? ManagePeopleMediator.PASSWORD_FACADE : null}" enabled="false" displayAsPassword="true"
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+               <mx:FormItem label="Email" required="true">
+                  <s:TextInput id="emailInput" text="@{person.email.email}" restrict="{Constants.EMAIL_RESTRICT}"
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+            </mx:Form>
+         </s:NavigatorContent>
+         <s:NavigatorContent id="address" label="Address">
+            <mx:Form id="addressForm" labelWidth="120">
+               <mx:FormItem label="Address 1">
+                  <s:TextInput id="address1Input" text="@{person.address.address1}" restrict="{Constants.ADDRESS_RESTRICT}"
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+               <mx:FormItem label="Address 2">
+                  <s:TextInput id="address2Input" text="@{person.address.address2}" restrict="{Constants.ADDRESS_RESTRICT}"
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+               <mx:FormItem label="City">
+                  <s:TextInput id="cityInput" text="@{person.address.city}" restrict="{Constants.ADDRESS_RESTRICT}"
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+               <mx:FormItem label="State">
+                  <s:TextInput id="stateInput" text="@{person.address.state}" restrict="{Constants.ALPHA_RESTRICT}" maxChars="2"
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+               <mx:FormItem label="Zip">
+                  <c:TextInputNumber id="zipInput" number="@{person.address.zip}" restrict="{Constants.POSITIVE_NUMBER_RESTRICT}" maxChars="5" minChars="5" 
+                               change="changeHandler(event)" 
+                               valueCommit="valueCommitHandler(event)"/>
+               </mx:FormItem>
+            </mx:Form>
+         </s:NavigatorContent>
+         <s:NavigatorContent id="phones" label="Phone Numbers">
+         </s:NavigatorContent>
+         <s:NavigatorContent id="permissions" label="Permissions">
+         </s:NavigatorContent>
+      </mx:ViewStack>
+      <mx:Button id="saveButton" icon="@Embed('assets/accept.png')"  disabledIcon="@Embed('assets/accept_disable.png')"
+                 label="Save Changes" y="375" horizontalCenter="-50" includeIn="editPerson" enabled="false"
+                 click="dispatchEvent(new PeopleEvent(PeopleEvent.PERSON_SAVE))"/>
+      <mx:Button id="cancelButton" icon="@Embed('assets/cross.png')"  disabledIcon="@Embed('assets/cross_disable.png')"
+                 label="Cancel" y="375" horizontalCenter="50" includeIn="editPerson"
+                 click="dispatchEvent(new PeopleEvent(PeopleEvent.PERSON_CANCEL))"/>
+   </s:Group>
+   
+</s:HGroup>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:flex="http://www.springframework.org/schema/flex"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="
+           http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/flex  http://www.springframework.org/schema/flex/spring-flex-1.0.xsd">
+
+   <!-- DAO Factory used by all the services -->
+   <bean id="daoFactory" class="com.spi.pipro.persistence.dao.impl.jdo.JDODAOFactory" />
+
+   <!-- Service Companies -->
+   <bean id="MSI" class="com.spi.pipro.company.msi.MSIServiceCompany" />
+   <bean id="LPS" class="com.spi.pipro.company.lps.LPSServiceCompany" />
+
+   <!-- Services -->
+   <bean id="peopleService" class="com.spi.pipro.service.impl.PeopleService">
+      <property name="DAOFactory" ref="daoFactory" />
+   </bean>
+   <bean id="serviceCompanyAccountService" class="com.spi.pipro.service.impl.ServiceCompanyAccountService">
+      <property name="DAOFactory" ref="daoFactory" />
+      <property name="serviceCompanies">
+         <list>
+            <ref bean="MSI"/>
+            <ref bean="LPS"/>
+         </list>
+      </property>
+   </bean>
+
+   <!-- Blaze Services -->
+   <flex:message-broker />
+   <bean id="peopleClientService" class="com.spi.pipro.service.blaze.PeopleClientService">
+      <property name="service" ref="peopleService" />
+      <!-- TODO Figure out SSL -->
+      <flex:remoting-destination channels="amfChannel" />
+   </bean>
+   <bean id="serviceCompanyAccountClientService" class="com.spi.pipro.service.blaze.ServiceCompanyAccountClientService">
+      <property name="service" ref="serviceCompanyAccountService" />
+      <!-- TODO Figure out SSL -->
+      <flex:remoting-destination channels="amfChannel" />
+   </bean>
+
+</beans>
