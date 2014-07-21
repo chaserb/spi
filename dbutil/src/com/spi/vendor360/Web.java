@@ -5,19 +5,16 @@
 package com.spi.vendor360;
 
 import java.io.BufferedOutputStream;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.net.HttpURLConnection;
-import java.nio.ByteBuffer;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
-import java.util.zip.GZIPInputStream;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -26,8 +23,6 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
-
-import sun.misc.BASE64Decoder;
 
 import com.spi.util.Debug;
 import com.spi.web.WebClient;
@@ -142,14 +137,16 @@ public class Web extends WebClient
       }
 
       // Get the connection's input stream
-      BASE64Decoder decoder = new BASE64Decoder();
-      ByteBuffer buf = decoder.decodeBufferToByteBuffer(conn.getInputStream());
-      InputStream inStream = new GZIPInputStream(new ByteArrayInputStream(buf.array()));
-      printResponseHeaders(conn);
+      
+// THIS DOESN'T WORK ANYMORE.  Use Apache Commons Codec      
+//      BASE64Decoder decoder = new BASE64Decoder();
+//      ByteBuffer buf = decoder.decodeBufferToByteBuffer(conn.getInputStream());
+//      InputStream inStream = new GZIPInputStream(new ByteArrayInputStream(buf.array()));
+//      printResponseHeaders(conn);
+//
+//      if (Debug.checkLevel(Debug.MED)) Debug.debug(Debug.MED, DEBUG_PREFIX + "getInput(): END");
 
-      if (Debug.checkLevel(Debug.MED)) Debug.debug(Debug.MED, DEBUG_PREFIX + "getInput(): END");
-
-      return inStream;
+      return null;
    }
 
    /**
