@@ -253,6 +253,7 @@ public abstract class WebClient
             {
                try
                {
+                  @SuppressWarnings("resource")
                   final OutputStream fos = new BufferedOutputStream(new FileOutputStream(tidyFileName));
                   OutputStream os = new OutputStream()
                   {

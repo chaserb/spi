@@ -136,30 +136,38 @@ public class RepScapeAccess extends AbstractInputProvider
    {
       if (Debug.checkLevel(Debug.MED)) Debug.debug(Debug.MED, DEBUG_PREFIX + "harvestOrders(): START: followLinks: " + followLinks);
 
-      InputStream inStream;
-      Document doc;
-      if (followLinks)
+      InputStream inStream = null;
+      Document doc = null;
+      
+      try
       {
-         // Read the "My Inspections" page on the first pass through and
-         // harvest its hidden input tags
-         inStream = new BufferedInputStream(getWeb().getInput(MY_INSPECTIONS));
-         doc = getWeb().parseInput(inStream);
+	      if (followLinks)
+	      {
+	         // Read the "My Inspections" page on the first pass through and
+	         // harvest its hidden input tags
+	         inStream = new BufferedInputStream(getWeb().getInput(MY_INSPECTIONS));
+	         doc = getWeb().parseInput(inStream);
+	      }
+	
+	      // Now post the hidden input variables back to the server
+	      Map<String, String> headerVars = new HashMap<String, String>();
+	      headerVars.put("Referer", MY_INSPECTIONS);
+	      headerVars.put("Content-Type", "application/x-www-form-urlencoded");
+	      headerVars.put("Cache-Control", "no-cache");
+	      Map<String, String> postVars = getMyInspectionsVariables();
+	      postVars.put("__CALLBACKPARAM", "InspectionId|0|" + pageNo + "|0");
+	      inStream = new BufferedInputStream(getWeb().getInput(MY_INSPECTIONS, postVars, headerVars));
+	      inStream = Debug.dumpStream(inStream);
+	      inStream = isolateHtml(inStream);
+	      doc = getWeb().parseInput(inStream);
+      }
+      finally
+      {
+    	  if (inStream != null) { inStream.close(); }
       }
 
-      // Now post the hidden input variables back to the server
-      Map<String, String> headerVars = new HashMap<String, String>();
-      headerVars.put("Referer", MY_INSPECTIONS);
-      headerVars.put("Content-Type", "application/x-www-form-urlencoded");
-      headerVars.put("Cache-Control", "no-cache");
-      Map<String, String> postVars = getMyInspectionsVariables();
-      postVars.put("__CALLBACKPARAM", "InspectionId|0|" + pageNo + "|0");
-      inStream = new BufferedInputStream(getWeb().getInput(MY_INSPECTIONS, postVars, headerVars));
-      inStream = Debug.dumpStream(inStream);
-      inStream = isolateHtml(inStream);
-      doc = getWeb().parseInput(inStream);
-      Set<RepScapeOrder> orders = null;
-
       // Find the order table
+      Set<RepScapeOrder> orders = null;
       NodeList tables = doc.getElementsByTagName("table");
       Node table = null;
       NodeList cellChildren = null;

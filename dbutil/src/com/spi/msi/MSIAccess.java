@@ -286,13 +286,21 @@ public class MSIAccess extends AbstractInputProvider
    {
       if (Debug.checkLevel(Debug.MED)) Debug.debug(Debug.MED, DEBUG_PREFIX + "harvestOrders(): START: followLinks: " + followLinks);
 
-      InputStream inStream;
-      Document doc;
+      InputStream inStream = null;
+      Document doc = null;
 
-      inStream = new BufferedInputStream(getWeb().getInput(url));
-      if (Debug.checkLevel(Debug.HIGH)) inStream = Debug.dumpStream(inStream);
-      // inStream = isolateHtml(inStream);
-      doc = getWeb().parseInput(inStream);
+      try
+      {
+	      inStream = new BufferedInputStream(getWeb().getInput(url));
+	      if (Debug.checkLevel(Debug.HIGH)) inStream = Debug.dumpStream(inStream);
+	      // inStream = isolateHtml(inStream);
+	      doc = getWeb().parseInput(inStream);
+      }
+      finally
+      {
+    	  if (inStream != null) { inStream.close(); }
+      }
+      
       Set<MSIOrder> orders = null;
 
       // Find the order table
