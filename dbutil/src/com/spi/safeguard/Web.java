@@ -187,6 +187,6 @@ public class Web extends WebClient
 
    protected String getDefaultInputURL()
    {
-      return "http://pappsrv1.safeguardproperties.com:7777/reports/rwservlet?";
+      return "https://inspi2.safeguardproperties.com/inspi2/inspsvc/main.php?subid=&amp;status=";
    }
 }

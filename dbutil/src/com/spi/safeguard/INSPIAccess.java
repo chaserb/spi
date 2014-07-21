@@ -4,20 +4,20 @@
  */
 package com.spi.safeguard;
 
-import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.json.JSONArray;
 
 import com.spi.AbstractInputProvider;
 import com.spi.Order;
 import com.spi.util.Debug;
+import com.spi.util.StringUtil;
 
 /**
  * @author Chase Barrett
@@ -25,7 +25,7 @@ import com.spi.util.Debug;
 public class INSPIAccess extends AbstractInputProvider
 {
    private static final String DEBUG_PREFIX = "INSPIAccess.";
-   private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd-MMM-yy");
+   private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("MM/dd/yyyy");
    private static List<OutputField> cFields;
 
    public String getServiceCompany()
@@ -40,20 +40,52 @@ public class INSPIAccess extends AbstractInputProvider
       // Set up the list of orders
       List<Order> pos = new ArrayList<Order>();
 
+      BufferedReader reader = null;
       try
       {
-         // Set up the input stream
-         Web web = new Web(getEnvironment(), getName());
-         BufferedInputStream buf = new BufferedInputStream(Debug.dumpStream(web.getInput(web.getInputURL())));
-
-         // Set up the document
-         Document doc = web.parseInput(buf);
-
-         // Find the tables that represent each page
-         NodeList tables = doc.getElementsByTagName("table");
-         for (int i = 0; i < tables.getLength(); i++)
+         try
          {
-            pos.addAll(processTable(tables.item(i)));
+            // Set up the input stream
+            Web web = new Web(getEnvironment(), getName());
+            String url = web.getInputURL();
+            reader = new BufferedReader(new InputStreamReader(Debug.dumpStream(web.getInput(url))));
+
+            // Read the web page
+            StringBuffer webPageBuf = new StringBuffer();
+            int bufSize = 512;
+            char[] charArry = new char[bufSize];
+            for (int numRead = bufSize; numRead == bufSize; numRead = reader.read(charArry))
+            {
+               webPageBuf.append(charArry, 0, numRead);
+            }
+
+            // Find the JSON data table
+            int index = webPageBuf.indexOf("var grdOrders_data = ");
+            if (index > 0)
+            {
+               webPageBuf.delete(0, index + 21);
+            }
+            else
+            {
+               throw new ParseException("Could not find the beginning of the order table", 0);
+            }
+            index = webPageBuf.indexOf("try {");
+            if (index > 0)
+            {
+               webPageBuf.delete(index, webPageBuf.length());
+               webPageBuf.trimToSize();
+            }
+            else
+            {
+               throw new ParseException("Could not find the end of the order table", 0);
+            }
+
+            // Parse the data table
+            pos.addAll(processTable(new JSONArray(webPageBuf.toString())));
+        }
+         finally
+         {
+            if (reader != null) { reader.close(); }
          }
       }
       catch (Exception e)
@@ -100,168 +132,37 @@ public class INSPIAccess extends AbstractInputProvider
       return cFields;
    }
 
-   protected List<INSPIOrder> processTable(Node table)
+   protected List<INSPIOrder> processTable(JSONArray table)
    {
-      // How to interpret the rows in the table. Each table comprises one
-      // page, with four or five orders on the page.
-      //
-      // Rows 1 - 10: Header for the page, including the date the report
-      // is published, and the date range for the report.
-      //
-      // Next 1 or 2 Rows: Spacer rows, sometimes with assignment dates
-      //
-      // Next 14 Rows: The order itself. THE KEY TO ALL THIS IS THAT THE
-      // FIRST ROW IN THE ORDER HAS **17** CELL CHILDREN.
-      //
-      // Next 2 to 4 Rows: Spacer rows, sometimes with assignment dates
-
       List<INSPIOrder> orders = new ArrayList<INSPIOrder>();
 
-      NodeList rows = table.getChildNodes();
-      Debug.debug(Debug.HIGH, "Number of rows in an INSPI table: " + rows.getLength());
+      Debug.debug(Debug.HIGH, "Number of rows in an INSPI table: " + table.length());
 
-      for (int i = 0; i < rows.getLength(); i++)
+      for (int i = 0; i < table.length(); i++)
       {
-         Node row = rows.item(i);
-         NodeList cells = row.getChildNodes();
-         Debug.debug(Debug.HIGH, "Number of cells in an INSPI table row: " + cells.getLength());
-         if (cells.getLength() == 17)
+         JSONArray row = table.getJSONArray(i);
+         INSPIOrder order = new INSPIOrder(this, row.getString(0), new Date());
+         order.setInspectionCode(row.getString(6));
+         order.setName(row.getString(2));
+         order.setAddress1(row.getString(3));
+         order.setCity(row.getString(4));
+         order.setState("CO");
+         order.setZip(row.getString(5));
+         try
          {
-            // We have the beginning of a 14 row block that describes an
-            // order.
-
-            // Order date and order number are in the second row, or the
-            // third row, depending on where the spacer lands :)
-            row = rows.item(i + 2);
-            if (row.getChildNodes().getLength() != 11)
-            {
-               row = rows.item(i + 3);
-               if (row.getChildNodes().getLength() != 11)
-               {
-                  continue;
-               }
-            }
-            INSPIOrder order = createOrder(row);
-
-            // Get the client and loan number
-            row = rows.item(i);
-            getClientAndWorkCode(row, order);
-
-            // Get the mortgager's name
-            row = rows.item(i + 4);
-            getName(row, order);
-
-            // Get the address, city, state, and zip
-            row = rows.item(i + 7);
-            getAddress(row, order);
-
-            // Get the due date
-            row = rows.item(i + 9);
-            getDueDate(row, order);
-
-            // Get photos reqd
-            row = rows.item(i + 10);
-            try
-            {
-               getPhotoYN(row, 3, order);
-            }
-            catch (NullPointerException e)
-            {
-               row = rows.item(i + 11);
-               getPhotoYN(row, 5, order);
-            }
-
-            // Get instructions
-            row = rows.item(i + 13);
-            getInstructions(row, order);
-
-            orders.add(order);
-
-            i += 13;
+            order.setInspectionDueDate(DATE_FORMAT.parse(row.getString(8)));
          }
+         catch (ParseException e)
+         {
+            Debug.debugException("Unable to understand the due date: " + row.getString(8), e);
+         }
+         order.set2535(!StringUtil.isEmpty(row.getString(7)) && row.getString(7).contains("2535"));
+         order.setInstructions(row.getString(14));
+         orders.add(order);
       }
 
-      if (Debug.checkLevel(Debug.HIGH)) Debug.debug(Debug.HIGH, DEBUG_PREFIX + "processTable(): " + rows.getLength() + " rows in the table.");
+      if (Debug.checkLevel(Debug.HIGH)) Debug.debug(Debug.HIGH, DEBUG_PREFIX + "processTable(): " + table.length() + " rows in the table.");
 
       return orders;
-   }
-
-   protected INSPIOrder createOrder(Node row)
-   {
-      NodeList cells = row.getChildNodes();
-      String orderDateStr = cells.item(5).getFirstChild().getFirstChild().getNodeValue();
-      Date orderDate = new Date();
-      try
-      {
-         orderDate = DATE_FORMAT.parse(orderDateStr);
-      }
-      catch (ParseException e)
-      {
-         Debug.debugException("Unexpected problem reading the order date:", e);
-      }
-      String orderNumStr = cells.item(9).getFirstChild().getFirstChild().getNodeValue();
-      return new INSPIOrder(this, orderNumStr, orderDate);
-   }
-
-   protected void getClientAndWorkCode(Node row, INSPIOrder order)
-   {
-      NodeList cells = row.getChildNodes();
-      String client = cells.item(3).getFirstChild().getFirstChild().getNodeValue();
-      order.setClient(client);
-      String workCode = cells.item(11).getFirstChild().getFirstChild().getNodeValue();
-      order.setInspectionCode(workCode);
-   }
-
-   protected void getName(Node row, INSPIOrder order)
-   {
-      NodeList cells = row.getChildNodes();
-      String name = cells.item(1).getFirstChild().getFirstChild().getNodeValue();
-      order.setName(name);
-   }
-
-   protected void getAddress(Node row, INSPIOrder order)
-   {
-      NodeList cells = row.getChildNodes();
-      String address1 = cells.item(1).getFirstChild().getFirstChild().getNodeValue();
-      order.setAddress1(address1);
-      String address2 = cells.item(3).getFirstChild().getFirstChild().getNodeValue();
-      order.setAddress2(address2);
-      String city = cells.item(5).getFirstChild().getFirstChild().getNodeValue();
-      order.setCity(city);
-      String state = cells.item(7).getFirstChild().getFirstChild().getNodeValue();
-      order.setState(state);
-      String zip = cells.item(9).getFirstChild().getFirstChild().getNodeValue();
-      order.setZip(zip);
-   }
-
-   protected void getDueDate(Node row, INSPIOrder order)
-   {
-      NodeList cells = row.getChildNodes();
-      String due = cells.item(3).getFirstChild().getFirstChild().getNodeValue();
-      try
-      {
-         Date dueDate = DATE_FORMAT.parse(due);
-         order.setInspectionDueDate(dueDate);
-      }
-      catch (ParseException e)
-      {
-         Debug.debugException("Unable to understand the due date: " + due, e);
-      }
-      String start2535 = cells.item(7).getFirstChild().getFirstChild().getNodeValue();
-      order.set2535(!start2535.equals("N/A"));
-   }
-
-   protected void getPhotoYN(Node row, int cellIndex, INSPIOrder order)
-   {
-      NodeList cells = row.getChildNodes();
-      String photoReqd = cells.item(cellIndex).getFirstChild().getFirstChild().getNodeValue();
-      order.setPhotosReqd("Y".equalsIgnoreCase(photoReqd));
-   }
-
-   protected void getInstructions(Node row, INSPIOrder order)
-   {
-      NodeList cells = row.getChildNodes();
-      String instructions = cells.item(1).getFirstChild().getFirstChild().getNodeValue();
-      order.setInstructions(instructions);
    }
 }
