@@ -3,5 +3,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib/Tidy.jar"/>
+	<classpathentry kind="lib" path="lib/json-20140107.jar"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>
