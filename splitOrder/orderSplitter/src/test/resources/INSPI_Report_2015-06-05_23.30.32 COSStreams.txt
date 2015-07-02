@@ -1,0 +1,3811 @@
+BEGIN COSStream: 2 tokens in COSDictionary{(COSName{Length}:COSInt{2363}) (COSName{Filter}:COSArray{[COSName{ASCII85Decode}, COSName{FlateDecode}]}) }
+ 
+PDFOperator{q} *******Save graphics state*******
+COSFloat{0.00} 
+COSFloat{6.44} 
+COSFloat{592.64} 
+COSFloat{785.56} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{47.60} 
+COSInt{0} 
+COSInt{0} 
+COSFloat{50.96} 
+COSFloat{7.32} 
+COSFloat{738.20} 
+PDFOperator{cm} *******Concatenate matrix to current transformation matrix*******
+COSName{im1} 
+PDFOperator{Do} *******Invoke Named XObject*******
+PDFOperator{Q} *******Restore graphics state*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{64.00} 
+COSFloat{774.40} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{12.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Safeguard Properties Inc.} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-15.72} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Open Order Report} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{64.00} 
+COSFloat{739.56} 
+COSFloat{131.84} 
+COSFloat{13.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{64.00} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Assignment Date Range:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{316.52} 
+COSFloat{775.76} 
+COSFloat{72.00} 
+COSFloat{12.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{316.52} 
+COSFloat{778.76} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Report Date:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{415.60} 
+COSFloat{741.08} 
+COSFloat{30.00} 
+COSFloat{12.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{415.60} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Page } 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{489.28} 
+COSFloat{741.08} 
+COSFloat{12.00} 
+COSFloat{12.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{489.28} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Of} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{390.20} 
+COSFloat{775.76} 
+COSFloat{87.88} 
+COSFloat{12.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{390.20} 
+COSFloat{778.76} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{06/05/2015} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{448.20} 
+COSFloat{740.32} 
+COSFloat{34.00} 
+COSFloat{12.76} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{462.20} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{2} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{197.16} 
+COSFloat{740.32} 
+COSFloat{60.96} 
+COSFloat{12.76} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{197.16} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{06/04/2015} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{283.64} 
+COSFloat{741.76} 
+COSFloat{66.59} 
+COSFloat{11.32} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{283.64} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{06/04/2015} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{263.76} 
+COSFloat{741.08} 
+COSFloat{15.68} 
+COSFloat{12.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{263.76} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{To} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSFloat{0.00} 
+COSFloat{446.32} 
+COSFloat{590.40} 
+COSFloat{288.08} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSFloat{0.0399} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSFloat{0.00} 
+PDFOperator{w} *******Set Line Width******* 
+COSInt{0} 
+PDFOperator{J} *******Set line cap style*******
+COSInt{0} 
+PDFOperator{j} *******Set Line Join Style*******
+COSArray{[]} 
+COSInt{0} 
+PDFOperator{d} *******Set Line Dash Pattern*******
+COSFloat{7.20} 
+COSFloat{716.40} 
+COSFloat{579.60} 
+COSFloat{14.40} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{S} *******Stroke Path*******
+COSFloat{7.20} 
+COSFloat{579.56} 
+COSFloat{579.60} 
+COSFloat{133.24} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSFloat{7.20} 
+COSFloat{446.32} 
+COSFloat{579.60} 
+COSFloat{133.24} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSFloat{138.80} 
+COSFloat{691.20} 
+COSFloat{77.44} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{138.80} 
+COSFloat{694.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{15204561} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{138.80} 
+COSFloat{557.96} 
+COSFloat{77.44} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{138.80} 
+COSFloat{561.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{8839057} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{41.84} 
+COSFloat{691.20} 
+COSFloat{46.80} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{41.84} 
+COSFloat{694.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{JBNUTT} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{41.84} 
+COSFloat{557.96} 
+COSFloat{46.80} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{41.84} 
+COSFloat{561.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{CITI} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{277.16} 
+COSFloat{691.20} 
+COSFloat{65.16} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{277.16} 
+COSFloat{694.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{ } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{277.16} 
+COSFloat{557.96} 
+COSFloat{65.16} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{277.16} 
+COSFloat{561.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{ } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{691.20} 
+COSFloat{55.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{694.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{DF} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{557.96} 
+COSFloat{55.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{561.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{FIB} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{13.52} 
+COSFloat{666.56} 
+COSFloat{201.28} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{13.52} 
+COSFloat{668.60} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{NICOLAS LOSOYA } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{13.52} 
+COSFloat{533.32} 
+COSFloat{201.28} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{13.52} 
+COSFloat{535.36} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{MAHONEY CHERE A} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.44} 
+COSFloat{677.88} 
+COSFloat{63.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{278.44} 
+COSFloat{679.88} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{04-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.44} 
+COSFloat{544.64} 
+COSFloat{63.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{278.44} 
+COSFloat{546.64} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{03-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{677.88} 
+COSFloat{70.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{679.88} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{166832968} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{544.64} 
+COSFloat{70.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{546.64} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{166768102} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{11.20} 
+COSFloat{642.48} 
+COSFloat{100.64} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{11.20} 
+COSFloat{644.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{622 QUEBEC ST} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{11.20} 
+COSFloat{509.24} 
+COSFloat{100.64} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{11.20} 
+COSFloat{509.24} 
+COSFloat{100.64} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{11.20} 
+COSFloat{511.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{4710 WITCHES HOLLOW LA} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSFloat{231.76} 
+COSFloat{642.48} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.76} 
+COSFloat{642.48} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.76} 
+COSFloat{644.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{COLORADO SPRING} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSFloat{231.76} 
+COSFloat{509.24} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.76} 
+COSFloat{509.24} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.76} 
+COSFloat{511.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{COLORADO SPRING} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSFloat{315.40} 
+COSFloat{642.48} 
+COSFloat{92.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{315.40} 
+COSFloat{644.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{CO} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{315.40} 
+COSFloat{509.24} 
+COSFloat{92.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{315.40} 
+COSFloat{511.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{CO} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{411.80} 
+COSFloat{642.48} 
+COSFloat{73.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{411.80} 
+COSFloat{644.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{80911} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{411.80} 
+COSFloat{509.24} 
+COSFloat{73.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{411.80} 
+COSFloat{511.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{80911} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{53.20} 
+COSFloat{628.28} 
+COSFloat{59.52} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{53.20} 
+COSFloat{630.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{13-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{53.20} 
+COSFloat{495.04} 
+COSFloat{59.52} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{53.20} 
+COSFloat{497.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{27-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{12.08} 
+COSFloat{583.96} 
+COSFloat{568.36} 
+COSFloat{26.96} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{12.08} 
+COSFloat{603.44} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+******* COSString{   "DF1" - CONTACT MORTGAGOR AND ADVISE THEM WHO TO CALL AT THEIR MORTGAGE CO.  LEAVE CARD IF CONTACT IS MADE.  CARD } 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-9.00} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{SHOULD BE LEFT EVEN IF NO CONTACT IS MADE. * PHOTO REQUIRED ADVISE MORTGAGOR TO CONTACT James B Nutter & Company AT  800-} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-9.00} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{315-7334} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{12.08} 
+COSFloat{459.68} 
+COSFloat{568.36} 
+COSFloat{18.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{12.08} 
+COSFloat{470.16} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+******* COSString{   BANKRUPTCY!!! MAKE NO CONTACT DO NOT CONTACT ANY NEIGHBORS. VERIFY OCCUPANCY VISUALLY ONLY * PHOTO REQUIRED * Previously} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-8.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{reported damages include: MISSING ITEMS, MORTGAGOR NEGLECT} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{197.84} 
+COSFloat{628.28} 
+COSFloat{59.48} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{208.44} 
+COSFloat{630.32} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/08/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{197.84} 
+COSFloat{495.04} 
+COSFloat{59.48} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{208.44} 
+COSFloat{497.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/22/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.68} 
+COSFloat{632.52} 
+COSFloat{46.80} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.68} 
+COSFloat{634.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{N} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.68} 
+COSFloat{499.28} 
+COSFloat{46.80} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.68} 
+COSFloat{501.32} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Y} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.72} 
+COSFloat{616.91} 
+COSFloat{46.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.72} 
+COSFloat{618.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Y} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.72} 
+COSFloat{483.68} 
+COSFloat{46.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.72} 
+COSFloat{485.72} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Y} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{508.16} 
+COSFloat{691.20} 
+COSFloat{72.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{508.16} 
+COSFloat{694.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{jf-lfwfi} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{508.16} 
+COSFloat{557.96} 
+COSFloat{72.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{508.16} 
+COSFloat{561.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{jf-lfwfi} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-403.16} 
+COSFloat{133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Loan # :} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Loan # :} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{129.47} 
+COSFloat{133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Map Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Map Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{123.80} 
+COSFloat{133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{116.56} 
+COSFloat{133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vendor:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vendor:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-459.92} 
+COSFloat{118.60} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Name:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Name:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{214.60} 
+COSFloat{133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{145.40} 
+COSFloat{133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-361.40} 
+COSFloat{109.16} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address1:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address1:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{109.12} 
+COSFloat{133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address2:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address2:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-109.12} 
+COSFloat{107.72} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Due Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Due Date:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.80} 
+COSFloat{652.80} 
+COSFloat{15.76} 
+COSFloat{10.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.80} 
+COSFloat{655.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{City:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.80} 
+COSFloat{519.56} 
+COSFloat{15.76} 
+COSFloat{10.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.80} 
+COSFloat{522.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{City:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{315.40} 
+COSFloat{655.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{State:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{State:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{97.80} 
+COSFloat{133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Zip:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Zip:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-399.68} 
+COSFloat{93.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Ordered Instructions:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Ordered Instructions:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{488.04} 
+COSFloat{151.68} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vacant:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vacant:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-33.00} 
+COSFloat{117.64} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Photo Required:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Photo Required:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-343.24} 
+COSFloat{144.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{25/35 Date Range:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{25/35 Date Range:} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.60} 
+COSFloat{627.88} 
+COSFloat{59.48} 
+COSFloat{9.92} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{289.24} 
+COSFloat{630.32} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{06/13/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.60} 
+COSFloat{494.64} 
+COSFloat{59.48} 
+COSFloat{9.92} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{289.24} 
+COSFloat{497.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/27/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-22.16} 
+COSFloat{133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{to} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{to} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-252.68} 
+COSFloat{197.44} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Client:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Client:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{0.0399} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSFloat{0.00} 
+PDFOperator{w} *******Set Line Width******* 
+COSInt{0} 
+PDFOperator{J} *******Set line cap style*******
+COSInt{0} 
+PDFOperator{j} *******Set Line Join Style*******
+COSArray{[]} 
+COSInt{0} 
+PDFOperator{d} *******Set Line Dash Pattern*******
+COSFloat{5.40} 
+COSFloat{736.28} 
+PDFOperator{m} *******Begin new Subpath*******
+COSFloat{588.60} 
+COSFloat{736.28} 
+PDFOperator{l} *******Append Straight Line Segment to Path*******
+PDFOperator{S} *******Stroke Path*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{509.12} 
+COSFloat{740.32} 
+COSFloat{34.04} 
+COSFloat{12.76} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{523.12} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{2} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+
+END COSStream: 2 tokens in COSDictionary{(COSName{Length}:COSInt{2363}) (COSName{Filter}:COSArray{[COSName{ASCII85Decode}, COSName{FlateDecode}]}) }
+ 
+
+BEGIN COSStream: 2 tokens in COSDictionary{(COSName{Length}:COSInt{3528}) (COSName{Filter}:COSArray{[COSName{ASCII85Decode}, COSName{FlateDecode}]}) }
+ 
+PDFOperator{q} *******Save graphics state*******
+COSFloat{0.00} 
+COSFloat{6.44} 
+COSFloat{592.64} 
+COSFloat{785.56} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{47.60} 
+COSInt{0} 
+COSInt{0} 
+COSFloat{50.96} 
+COSFloat{7.32} 
+COSFloat{738.20} 
+PDFOperator{cm} *******Concatenate matrix to current transformation matrix*******
+COSName{im1} 
+PDFOperator{Do} *******Invoke Named XObject*******
+PDFOperator{Q} *******Restore graphics state*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{64.00} 
+COSFloat{774.40} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{12.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Safeguard Properties Inc.} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-15.72} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Open Order Report} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{64.00} 
+COSFloat{739.56} 
+COSFloat{131.84} 
+COSFloat{13.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{64.00} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Assignment Date Range:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{316.52} 
+COSFloat{775.76} 
+COSFloat{72.00} 
+COSFloat{12.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{316.52} 
+COSFloat{778.76} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Report Date:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{415.60} 
+COSFloat{741.08} 
+COSFloat{30.00} 
+COSFloat{12.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{415.60} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Page } 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{489.28} 
+COSFloat{741.08} 
+COSFloat{12.00} 
+COSFloat{12.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{489.28} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Of} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{390.20} 
+COSFloat{775.76} 
+COSFloat{87.88} 
+COSFloat{12.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{390.20} 
+COSFloat{778.76} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{06/05/2015} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{448.20} 
+COSFloat{740.32} 
+COSFloat{34.00} 
+COSFloat{12.76} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{462.20} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{1} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{197.16} 
+COSFloat{740.32} 
+COSFloat{60.96} 
+COSFloat{12.76} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{197.16} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{06/04/2015} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{283.64} 
+COSFloat{741.76} 
+COSFloat{66.59} 
+COSFloat{11.32} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{283.64} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{06/04/2015} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{263.76} 
+COSFloat{741.08} 
+COSFloat{15.68} 
+COSFloat{12.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{263.76} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{To} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSFloat{0.00} 
+COSFloat{46.60} 
+COSFloat{590.40} 
+COSFloat{687.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSFloat{0.0399} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSFloat{0.00} 
+PDFOperator{w} *******Set Line Width******* 
+COSInt{0} 
+PDFOperator{J} *******Set line cap style*******
+COSInt{0} 
+PDFOperator{j} *******Set Line Join Style*******
+COSArray{[]} 
+COSInt{0} 
+PDFOperator{d} *******Set Line Dash Pattern*******
+COSFloat{7.20} 
+COSFloat{716.40} 
+COSFloat{579.60} 
+COSFloat{14.40} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{S} *******Stroke Path*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{104.48} 
+COSFloat{721.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{06/04/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-86.04} 
+COSFloat{0.00} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Assignment Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{7.20} 
+COSFloat{579.56} 
+COSFloat{579.60} 
+COSFloat{133.24} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSFloat{7.20} 
+COSFloat{446.32} 
+COSFloat{579.60} 
+COSFloat{133.24} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSFloat{7.20} 
+COSFloat{313.08} 
+COSFloat{579.60} 
+COSFloat{133.24} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSFloat{7.20} 
+COSFloat{179.84} 
+COSFloat{579.60} 
+COSFloat{133.24} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSFloat{7.20} 
+COSFloat{46.60} 
+COSFloat{579.60} 
+COSFloat{133.24} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSFloat{138.80} 
+COSFloat{691.20} 
+COSFloat{77.44} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{138.80} 
+COSFloat{694.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{5795065} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{138.80} 
+COSFloat{557.96} 
+COSFloat{77.44} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{138.80} 
+COSFloat{561.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{5326506} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{138.80} 
+COSFloat{424.72} 
+COSFloat{77.44} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{138.80} 
+COSFloat{428.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{15176207} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{138.80} 
+COSFloat{291.48} 
+COSFloat{77.44} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{138.80} 
+COSFloat{294.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{10888103} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{138.80} 
+COSFloat{158.24} 
+COSFloat{77.44} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{138.80} 
+COSFloat{161.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{15337447} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{41.84} 
+COSFloat{691.20} 
+COSFloat{46.80} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{41.84} 
+COSFloat{694.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{HSBC} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{41.84} 
+COSFloat{557.96} 
+COSFloat{46.80} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{41.84} 
+COSFloat{561.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{DMI} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{41.84} 
+COSFloat{424.72} 
+COSFloat{46.80} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{41.84} 
+COSFloat{428.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{RRR} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{41.84} 
+COSFloat{291.48} 
+COSFloat{46.80} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{41.84} 
+COSFloat{294.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{CITI} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{41.84} 
+COSFloat{158.24} 
+COSFloat{46.80} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{41.84} 
+COSFloat{161.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{JBNUTT} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{277.16} 
+COSFloat{691.20} 
+COSFloat{65.16} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{277.16} 
+COSFloat{694.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{ } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{277.16} 
+COSFloat{557.96} 
+COSFloat{65.16} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{277.16} 
+COSFloat{561.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{ } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{277.16} 
+COSFloat{424.72} 
+COSFloat{65.16} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{277.16} 
+COSFloat{428.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{ } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{277.16} 
+COSFloat{291.48} 
+COSFloat{65.16} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{277.16} 
+COSFloat{294.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{ } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{277.16} 
+COSFloat{158.24} 
+COSFloat{65.16} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{277.16} 
+COSFloat{161.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{ } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{691.20} 
+COSFloat{55.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{694.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{FINC} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{557.96} 
+COSFloat{55.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{561.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{PRSALE} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{424.72} 
+COSFloat{55.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{428.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{DF} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{291.48} 
+COSFloat{55.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{294.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{FIB} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{158.24} 
+COSFloat{55.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{161.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{FINC} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{13.52} 
+COSFloat{666.56} 
+COSFloat{201.28} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{13.52} 
+COSFloat{668.60} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{TODD WILLIAMS } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{13.52} 
+COSFloat{533.32} 
+COSFloat{201.28} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{13.52} 
+COSFloat{535.36} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{LINDA S CLAYTON } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{13.52} 
+COSFloat{400.08} 
+COSFloat{201.28} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{13.52} 
+COSFloat{402.12} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{DAVIDSON DANIEL} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{13.52} 
+COSFloat{266.84} 
+COSFloat{201.28} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{13.52} 
+COSFloat{268.88} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{FOWLER ROBERT CHARLES} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{13.52} 
+COSFloat{133.60} 
+COSFloat{201.28} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{13.52} 
+COSFloat{135.64} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{RACHAEL SMITH } 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.44} 
+COSFloat{677.88} 
+COSFloat{63.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{278.44} 
+COSFloat{679.88} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{03-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.44} 
+COSFloat{544.64} 
+COSFloat{63.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{278.44} 
+COSFloat{546.64} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{04-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.44} 
+COSFloat{411.40} 
+COSFloat{63.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{278.44} 
+COSFloat{413.40} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{04-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.44} 
+COSFloat{278.16} 
+COSFloat{63.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{278.44} 
+COSFloat{280.16} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{04-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.44} 
+COSFloat{144.92} 
+COSFloat{63.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{278.44} 
+COSFloat{146.92} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{04-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{677.88} 
+COSFloat{70.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{679.88} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{166776967} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{544.64} 
+COSFloat{70.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{546.64} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{166815851} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{411.40} 
+COSFloat{70.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{413.40} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{166823166} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{278.16} 
+COSFloat{70.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{280.16} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{166814262} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{406.08} 
+COSFloat{144.92} 
+COSFloat{70.88} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{406.08} 
+COSFloat{146.92} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{166826903} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{11.20} 
+COSFloat{642.48} 
+COSFloat{100.64} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{11.20} 
+COSFloat{644.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{1920 SNYDER AVENUE} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{11.20} 
+COSFloat{509.24} 
+COSFloat{100.64} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{11.20} 
+COSFloat{511.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{2120  BAINBRIDGE RD} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{11.20} 
+COSFloat{376.00} 
+COSFloat{100.64} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{11.20} 
+COSFloat{378.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{11935 LYNE CT} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{11.20} 
+COSFloat{242.76} 
+COSFloat{100.64} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{11.20} 
+COSFloat{244.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{8055 PARSONAGE LANE} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{11.20} 
+COSFloat{109.52} 
+COSFloat{100.64} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{11.20} 
+COSFloat{109.52} 
+COSFloat{100.64} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{11.20} 
+COSFloat{111.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{1922 MEADOWBROOK PKW} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSFloat{231.76} 
+COSFloat{642.48} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.76} 
+COSFloat{642.48} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.76} 
+COSFloat{644.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{COLORADO SPRING} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSFloat{231.76} 
+COSFloat{509.24} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.76} 
+COSFloat{509.24} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.76} 
+COSFloat{511.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{COLORADO SPRING} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSFloat{231.76} 
+COSFloat{376.00} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.76} 
+COSFloat{378.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{PEYTON} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{231.76} 
+COSFloat{242.76} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.76} 
+COSFloat{242.76} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.76} 
+COSFloat{244.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{COLORADO SPRING} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSFloat{231.76} 
+COSFloat{109.52} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.76} 
+COSFloat{109.52} 
+COSFloat{75.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.76} 
+COSFloat{111.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{COLORADO SPRING} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSFloat{315.40} 
+COSFloat{642.48} 
+COSFloat{92.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{315.40} 
+COSFloat{644.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{CO} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{315.40} 
+COSFloat{509.24} 
+COSFloat{92.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{315.40} 
+COSFloat{511.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{CO} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{315.40} 
+COSFloat{376.00} 
+COSFloat{92.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{315.40} 
+COSFloat{378.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{CO} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{315.40} 
+COSFloat{242.76} 
+COSFloat{92.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{315.40} 
+COSFloat{244.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{CO} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{315.40} 
+COSFloat{109.52} 
+COSFloat{92.12} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{315.40} 
+COSFloat{111.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{CO} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{411.80} 
+COSFloat{642.48} 
+COSFloat{73.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{411.80} 
+COSFloat{644.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{80909} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{411.80} 
+COSFloat{509.24} 
+COSFloat{73.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{411.80} 
+COSFloat{511.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{80916} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{411.80} 
+COSFloat{376.00} 
+COSFloat{73.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{411.80} 
+COSFloat{378.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{80831} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{411.80} 
+COSFloat{242.76} 
+COSFloat{73.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{411.80} 
+COSFloat{244.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{80951} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{411.80} 
+COSFloat{109.52} 
+COSFloat{73.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{411.80} 
+COSFloat{111.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{80951} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{53.20} 
+COSFloat{628.28} 
+COSFloat{59.52} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{53.20} 
+COSFloat{630.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{08-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{53.20} 
+COSFloat{495.04} 
+COSFloat{59.52} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{53.20} 
+COSFloat{497.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{09-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{53.20} 
+COSFloat{361.80} 
+COSFloat{59.52} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{53.20} 
+COSFloat{363.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{09-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{53.20} 
+COSFloat{228.56} 
+COSFloat{59.52} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{53.20} 
+COSFloat{230.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{10-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{53.20} 
+COSFloat{95.32} 
+COSFloat{59.52} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{53.20} 
+COSFloat{97.32} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{10-JUN-15} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{12.08} 
+COSFloat{601.91} 
+COSFloat{568.36} 
+COSFloat{9.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{12.08} 
+COSFloat{603.44} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{   "FINC" - NO CONTACT INSPECTION MAKE NO CONTACT - STANDARD VISUAL INSPECTION ONLY. * PHOTO REQUIRED} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{12.08} 
+COSFloat{459.68} 
+COSFloat{568.36} 
+COSFloat{18.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{12.08} 
+COSFloat{470.16} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+******* COSString{   "PRSALE" MUST BE COMPLETED ON DUE DATE.  PLEASE OBTAIN THE NAMES OF THE OCCUPANTS OR GIVE REASON WHY UNABLE TO OBTAIN.} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-8.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{* PHOTO REQUIRED} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{12.08} 
+COSFloat{317.48} 
+COSFloat{568.36} 
+COSFloat{26.96} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{12.08} 
+COSFloat{336.92} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+******* COSString{   "DF1" - CONTACT MORTGAGOR AND ADVISE THEM WHO TO CALL AT THEIR MORTGAGE CO.  LEAVE CARD IF CONTACT IS MADE.  CARD } 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-8.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{SHOULD BE LEFT EVEN IF NO CONTACT IS MADE. * PHOTO REQUIRED ADVISE MORTGAGOR TO CONTACT Select Portfolio Servicing, Inc. AT  888-} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-9.00} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{818-6032} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{12.08} 
+COSFloat{202.20} 
+COSFloat{568.36} 
+COSFloat{9.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{12.08} 
+COSFloat{203.68} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{   BANKRUPTCY!!! MAKE NO CONTACT DO NOT CONTACT ANY NEIGHBORS. VERIFY OCCUPANCY VISUALLY ONLY * PHOTO REQUIRED} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{12.08} 
+COSFloat{68.96} 
+COSFloat{568.36} 
+COSFloat{9.00} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{12.08} 
+COSFloat{70.44} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{   "FINC" - NO CONTACT INSPECTION MAKE NO CONTACT - STANDARD VISUAL INSPECTION ONLY. * PHOTO REQUIRED} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{197.84} 
+COSFloat{628.28} 
+COSFloat{59.48} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{221.20} 
+COSFloat{630.32} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{N/A} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{197.84} 
+COSFloat{495.04} 
+COSFloat{59.48} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{208.44} 
+COSFloat{497.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/04/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{197.84} 
+COSFloat{361.80} 
+COSFloat{59.48} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{208.44} 
+COSFloat{363.84} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/04/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{197.84} 
+COSFloat{228.56} 
+COSFloat{59.48} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{208.44} 
+COSFloat{230.60} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/05/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{197.84} 
+COSFloat{95.32} 
+COSFloat{59.48} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{208.44} 
+COSFloat{97.36} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/05/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.68} 
+COSFloat{632.52} 
+COSFloat{46.80} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.68} 
+COSFloat{634.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{N} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.68} 
+COSFloat{499.28} 
+COSFloat{46.80} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.68} 
+COSFloat{501.32} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{N} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.68} 
+COSFloat{366.04} 
+COSFloat{46.80} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.68} 
+COSFloat{368.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{N} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.68} 
+COSFloat{232.80} 
+COSFloat{46.80} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.68} 
+COSFloat{234.84} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{N} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.68} 
+COSFloat{99.56} 
+COSFloat{46.80} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.68} 
+COSFloat{101.60} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{N} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.72} 
+COSFloat{616.91} 
+COSFloat{46.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.72} 
+COSFloat{618.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Y} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.72} 
+COSFloat{483.68} 
+COSFloat{46.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.72} 
+COSFloat{485.72} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Y} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.72} 
+COSFloat{350.44} 
+COSFloat{46.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.72} 
+COSFloat{352.48} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Y} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.72} 
+COSFloat{217.20} 
+COSFloat{46.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.72} 
+COSFloat{219.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Y} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{533.72} 
+COSFloat{83.96} 
+COSFloat{46.72} 
+COSFloat{9.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{533.72} 
+COSFloat{86.00} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Y} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{508.16} 
+COSFloat{691.20} 
+COSFloat{72.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{508.16} 
+COSFloat{694.52} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{jf-lfwfi} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{508.16} 
+COSFloat{557.96} 
+COSFloat{72.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{508.16} 
+COSFloat{561.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{jf-lfwfi} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{508.16} 
+COSFloat{424.72} 
+COSFloat{72.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{508.16} 
+COSFloat{428.04} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{jf-lfwfi} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{508.16} 
+COSFloat{291.48} 
+COSFloat{72.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{508.16} 
+COSFloat{294.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{jf-lfwfi} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{508.16} 
+COSFloat{158.24} 
+COSFloat{72.28} 
+COSFloat{10.80} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{508.16} 
+COSFloat{161.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{jf-lfwfi} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-403.16} 
+COSFloat{532.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{Loan # :} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Loan # :} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Loan # :} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Loan # :} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Loan # :} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{129.47} 
+COSFloat{532.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Map Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Map Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Map Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Map Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Map Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{123.80} 
+COSFloat{532.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Code:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{116.56} 
+COSFloat{532.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vendor:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vendor:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vendor:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vendor:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vendor:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-459.92} 
+COSFloat{518.32} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Name:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Name:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Name:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Name:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Name:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{214.60} 
+COSFloat{532.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{145.40} 
+COSFloat{532.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Order:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-361.40} 
+COSFloat{508.88} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address1:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address1:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address1:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address1:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address1:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{109.12} 
+COSFloat{532.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address2:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address2:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address2:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address2:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Address2:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-109.12} 
+COSFloat{507.44} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Due Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Due Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Due Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Due Date:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Due Date:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.80} 
+COSFloat{652.80} 
+COSFloat{15.76} 
+COSFloat{10.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.80} 
+COSFloat{655.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{City:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.80} 
+COSFloat{519.56} 
+COSFloat{15.76} 
+COSFloat{10.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.80} 
+COSFloat{522.56} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{City:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.80} 
+COSFloat{386.32} 
+COSFloat{15.76} 
+COSFloat{10.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.80} 
+COSFloat{389.32} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{City:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.80} 
+COSFloat{253.08} 
+COSFloat{15.76} 
+COSFloat{10.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.80} 
+COSFloat{256.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{City:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{231.80} 
+COSFloat{119.84} 
+COSFloat{15.76} 
+COSFloat{10.52} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{231.80} 
+COSFloat{122.84} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{City:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{315.40} 
+COSFloat{655.80} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{State:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{State:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{State:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{State:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{State:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{97.80} 
+COSFloat{532.96} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Zip:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Zip:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Zip:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Zip:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Zip:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-399.68} 
+COSFloat{493.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Ordered Instructions:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Ordered Instructions:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Ordered Instructions:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Ordered Instructions:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Work Ordered Instructions:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{488.04} 
+COSFloat{551.40} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vacant:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vacant:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vacant:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vacant:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Vacant:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-33.00} 
+COSFloat{517.36} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Photo Required:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Photo Required:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Photo Required:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Photo Required:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Photo Required:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-343.24} 
+COSFloat{544.28} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{25/35 Date Range:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{25/35 Date Range:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{25/35 Date Range:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{25/35 Date Range:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{25/35 Date Range:} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.60} 
+COSFloat{627.88} 
+COSFloat{59.48} 
+COSFloat{9.92} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{301.95} 
+COSFloat{630.32} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F2} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{N/A} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.60} 
+COSFloat{494.64} 
+COSFloat{59.48} 
+COSFloat{9.92} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{289.24} 
+COSFloat{497.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/09/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.60} 
+COSFloat{361.40} 
+COSFloat{59.48} 
+COSFloat{9.92} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{289.24} 
+COSFloat{363.84} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/09/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.60} 
+COSFloat{228.16} 
+COSFloat{59.48} 
+COSFloat{9.92} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{289.24} 
+COSFloat{230.60} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/10/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSInt{1} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{278.60} 
+COSFloat{94.92} 
+COSFloat{59.48} 
+COSFloat{9.92} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{f*} *******Fill Path Using Even-Odd Rule*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{289.24} 
+COSFloat{97.32} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{06/10/2015} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-22.16} 
+COSFloat{533.00} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F1} 
+COSFloat{8.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{to} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{to} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{to} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{to} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{to} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{-252.68} 
+COSFloat{597.16} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Client:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Client:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Client:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Client:} 
+PDFOperator{Tj} *******Show Text*******
+COSFloat{0.00} 
+COSFloat{-133.24} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+******* COSString{Client:} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+COSFloat{0.0399} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+COSFloat{0.00} 
+PDFOperator{w} *******Set Line Width******* 
+COSInt{0} 
+PDFOperator{J} *******Set line cap style*******
+COSInt{0} 
+PDFOperator{j} *******Set Line Join Style*******
+COSArray{[]} 
+COSInt{0} 
+PDFOperator{d} *******Set Line Dash Pattern*******
+COSFloat{5.40} 
+COSFloat{736.28} 
+PDFOperator{m} *******Begin new Subpath*******
+COSFloat{588.60} 
+COSFloat{736.28} 
+PDFOperator{l} *******Append Straight Line Segment to Path*******
+PDFOperator{S} *******Stroke Path*******
+PDFOperator{q} *******Save graphics state*******
+COSFloat{509.12} 
+COSFloat{740.32} 
+COSFloat{34.04} 
+COSFloat{12.76} 
+PDFOperator{re} *******Append Rectangle to Path*******
+PDFOperator{W} *******Set clipping path using nonzero winding number rule*******
+PDFOperator{n} *******End Path Without Filling or Stroking*******
+PDFOperator{BT} *******Begin Text Object*******
+COSFloat{523.12} 
+COSFloat{744.08} 
+PDFOperator{TD} *******Move Text Position and Set Leading*******
+COSName{F0} 
+COSFloat{10.00} 
+PDFOperator{Tf} *******Set Text Font and Size*******
+******* COSString{2} 
+PDFOperator{Tj} *******Show Text*******
+PDFOperator{ET} *******End Text Object*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+PDFOperator{Q} *******Restore graphics state*******
+COSInt{0} 
+PDFOperator{g} *******Set Gray Level for Nonstroking Operations*******
+COSInt{0} 
+PDFOperator{G} *******Set gray level for stroking operations*******
+
+END COSStream: 2 tokens in COSDictionary{(COSName{Length}:COSInt{3528}) (COSName{Filter}:COSArray{[COSName{ASCII85Decode}, COSName{FlateDecode}]}) }
+ 
