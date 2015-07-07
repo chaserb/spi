@@ -8,6 +8,8 @@ import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.pdfbox.pdmodel.PDDocument;
+
 /**
  * Utility to read Safeguard order sheets (*.pdf) and convert them to a new file
  * (*.pdf) which puts each order at the top of a blank page.
@@ -37,7 +39,7 @@ public class App {
 				File outFile = getOutFile(file);
 				log.info(() -> "Processing file: " + file);
 				log.info(() -> "     Writing to: " + outFile + "\n");
-				PagedOrderSplitter splitter = new PagedOrderSplitter(file);
+				PagedOrderSplitter splitter = new PagedOrderSplitter(PDDocument.load(file));
 				splitter.splitOrders();
 				splitter.getSplitDocument().save(outFile);
 				splitter.dispose();
