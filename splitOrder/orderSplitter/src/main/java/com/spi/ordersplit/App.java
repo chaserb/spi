@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FilenameFilter;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -44,7 +45,7 @@ public class App {
 				splitter.getSplitDocument().save(outFile);
 				splitter.dispose();
 			} catch (Exception e) {
-				log.severe(() -> "Error processing file: " + e);
+				log.log(Level.SEVERE, e, () -> "Error processing file: " + e);
 			}
 		}
 	}
