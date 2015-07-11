@@ -2,32 +2,53 @@ package com.spi.ordersplit;
 
 import static com.spi.ordersplit.PagedOrderSplitter.CONTENT_MAX_Y;
 import static com.spi.ordersplit.PagedOrderSplitter.CONTENT_MIN_Y;
-import static com.spi.ordersplit.PagedOrderSplitter.ORDERS_PER_PAGE;
 import static com.spi.ordersplit.PagedOrderSplitter.CONTENT_RANGE;
+import static com.spi.ordersplit.PagedOrderSplitter.ORDERS_PER_PAGE;
 import static com.spi.test.util.ThrowableCaptor.captureThrowable;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
+import org.apache.pdfbox.exceptions.COSVisitorException;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.edit.PDPageContentStream;
+import org.apache.pdfbox.pdmodel.font.PDFont;
+import org.apache.pdfbox.pdmodel.font.PDType1Font;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 public class PagedOrderSplitterTest {
 	
-	public static final File TEST_FILE= new File("src/test/resources/INSPI_Report_2015-06-05_23.30.32.pdf");
+	private static final Logger log = Logger.getLogger(PagedOrderSplitterTest.class.getName());
+
+	public static final File TEST_IN_FILE = new File("./src/test/resources/INSPI_Report_2015-06-05_23.30.32.pdf");
+	public static final File TEST_OUT_FILE = new File("./src/test/resources/INSPI_Report_2015-06-05_23.30.32.processed.pdf");
+	public static final File TEST_SIMPLE_FILE = new File("./src/test/resources/simple.pdf"); 
 	public static final float SMIDGE = 0.01f;
 	public static final float ROW_HEIGHT = CONTENT_RANGE / ORDERS_PER_PAGE;
 	
 	public PDDocument inDoc;
+	public PDDocument outDoc;
 	
 	@Before
-	public void loadDocument() throws IOException {
-		inDoc = PDDocument.load(TEST_FILE);
+	public void loadDocuments() throws IOException {
+		inDoc = PDDocument.load(TEST_IN_FILE);
+		outDoc = PDDocument.load(TEST_OUT_FILE);
 	}
-
+	
+	@After
+	public void closeDocuments() throws IOException {
+		inDoc.close();
+		outDoc.close();
+	}
 	@Test
 	public void testPageIndexForObjectOutOfBounds() {
 		PagedOrderSplitter splitter = new PagedOrderSplitter(inDoc);
@@ -122,5 +143,61 @@ public class PagedOrderSplitterTest {
 		assertEquals(10, splitter.getSplitDocument().getDocumentCatalog().getAllPages().size());
 		assertEquals(page5, splitter.getSplitDocument().getDocumentCatalog().getAllPages().get(5));
 		assertEquals(page9, splitter.getSplitDocument().getDocumentCatalog().getAllPages().get(9));
+	}
+	
+	@Test
+	public void testSimpleFile() throws IOException, COSVisitorException {
+		// Just to make sure I understand how to compose PDFs
+		PDDocument doc = new PDDocument();
+		PDFont font = PDType1Font.HELVETICA;
+		// Create the first page
+		PDPage page1 = new PDPage();
+		PDPageContentStream stream1 = new PDPageContentStream(doc, page1);
+		stream1.setFont(font, 30.0f);
+		stream1.beginText();
+		stream1.moveTextPositionByAmount(300.0f, 300.0f);
+		stream1.drawString("Hello on page 1");
+		stream1.endText();
+		stream1.beginText();
+		stream1.drawString("Hello Again on page 1");
+		stream1.endText();
+		stream1.close();
+		// Create the second page
+		PDPage page2 = new PDPage();
+		PDPageContentStream stream2 = new PDPageContentStream(doc, page2);
+		stream2.setFont(font, 30.0f);
+		stream2.beginText();
+		stream2.moveTextPositionByAmount(300.0f, 300.0f);
+		stream2.drawString("Hello on page 2");
+		stream2.endText();
+		stream2.beginText();
+		stream2.drawString("Hello Again on page 2");
+		stream2.endText();
+		stream2.close();
+		// Close the document
+		doc.addPage(page1);
+		doc.addPage(page2);
+		doc.save(TEST_SIMPLE_FILE);
+		doc.close();
+	}
+	
+	@Test
+	public void testSplitOrders() throws COSVisitorException, IOException {
+		// Simply dump tokens to the logger
+		log.info("\n\n******* Input Tokens *******\n\n");
+		try {
+			PagedOrderSplitter splitter = new PagedOrderSplitter(inDoc);
+			splitter.splitOrders();
+		} catch (Exception e) {
+			log.log(Level.SEVERE, e, () -> "Caught an error on the input document");
+		}
+		log.info("\n\n******* Output Tokens *******\n\n");
+		try {
+			PagedOrderSplitter splitter = new PagedOrderSplitter(outDoc);
+			splitter.splitOrders();
+		} catch (Exception e) {
+			log.log(Level.SEVERE, e, () -> "Caught an error on the output document");
+		}
+		log.info("\n\n******* Done Tokens *******\n\n");
 	}
 }

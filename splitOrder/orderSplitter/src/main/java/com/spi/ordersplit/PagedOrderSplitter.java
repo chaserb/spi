@@ -8,15 +8,17 @@ import java.util.Stack;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import org.apache.pdfbox.cos.COSArray;
 import org.apache.pdfbox.cos.COSFloat;
 import org.apache.pdfbox.cos.COSInteger;
 import org.apache.pdfbox.cos.COSName;
 import org.apache.pdfbox.cos.COSString;
 import org.apache.pdfbox.exceptions.COSVisitorException;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDDocumentInformation;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.edit.PDPageContentStream;
+import org.apache.pdfbox.pdmodel.font.PDFont;
+import org.apache.pdfbox.pdmodel.font.PDType1Font;
 import org.apache.pdfbox.util.PDFOperator;
 
 /**
@@ -34,6 +36,7 @@ public class PagedOrderSplitter {
 	static final float CONTENT_MAX_Y = 694.52f;
 	static final float CONTENT_MIN_Y = 28.32f;
 	static final float CONTENT_RANGE = CONTENT_MAX_Y - CONTENT_MIN_Y;
+	static final PDFont DEFAULT_FONT = PDType1Font.HELVETICA;
 
 	private PDDocument inDoc;
 	private PDDocument outDoc;
@@ -68,11 +71,6 @@ public class PagedOrderSplitter {
 	 */
 	@SuppressWarnings("unchecked")
 	public void splitOrders() throws IOException, COSVisitorException {
-		// TODO Is This Necessary??
-		PDDocumentInformation destInfo = outDoc.getDocumentInformation();
-		PDDocumentInformation srcInfo = inDoc.getDocumentInformation();
-		destInfo.getDictionary().mergeInto(srcInfo.getDictionary());
-
 		List<PDPage> pages = inDoc.getDocumentCatalog().getAllPages();
 		for (int pageNum = 0; pageNum < pages.size(); pageNum++) {
 			log.fine("Processing page #" + (pageNum + 1));
@@ -80,7 +78,10 @@ public class PagedOrderSplitter {
 			List<Object> inTokens = page.getContents().getStream().getStreamTokens();
 			PDPage outPage = null;
 			PDPageContentStream outStream = null;
+			float outPageYCursor = 0.0f;
+			float outPageXCursor = 0.0f;
 			Stack<Object> operandStack = new Stack<Object>();
+			
 			for (Iterator<Object> iter = inTokens.iterator(); iter.hasNext();) {
 				Object inToken = iter.next();
 
@@ -94,14 +95,6 @@ public class PagedOrderSplitter {
 					log.finer("PDF Operator: " + operator.getOperation());
 					switch (operator.getOperation()) {
 					
-						case "J":  // Set Line Cap Style
-						case "d":  // Set Line Dash
-						case "g":  // Set Gray Level
-						case "j":  // Set Line Join
-						case "l":  // Append Straight Line
-						case "m":  // Begin New Subpath
-						case "w":  // Set Line Width
-
 						// The following operators pertain to a text object. For
 						// each text object, presume that the "Move Text Position"
 						// operator will be the first operator inside the text 
@@ -114,23 +107,30 @@ public class PagedOrderSplitter {
 						// correct page.
 						case "BT": // Begin Text
 							outPage = null;
-							if (outStream != null) { outStream.close(); }
 							outStream = null;
+							outPageYCursor = 0.0f;
+							outPageXCursor = 0.0f;
 							break;		
 						case "TD": // Move Text Position
 							float textY = ((COSFloat)operandStack.pop()).floatValue();
 							float textX = ((COSFloat)operandStack.pop()).floatValue();
-							if (outPage == null) {
-								outPage = getPageForObject(pageNum, textY);
+							if (outStream != null) {
+								outStream.endText();
+								outStream.close();
+								outStream = null;
 							}
-							if (outPage != null && outStream == null) {
+							outPage = getPageForObject(pageNum, textY + outPageYCursor);
+							if (outPage != null) {
 								outPage.setResources(page.findResources());
 								outStream = new PDPageContentStream(outDoc, outPage, true, true);
+								outStream.setFont(DEFAULT_FONT, 8.0f);
 								outStream.beginText();
 							}
 							if (outStream != null) {
-								outStream.moveTextPositionByAmount(textX, textY);
+								outStream.moveTextPositionByAmount(textX + outPageXCursor, textY + outPageYCursor);
 							}
+							outPageYCursor += textY;
+							outPageXCursor += textX;
 							break;
 						case "Tf": // Set Text Font and Size
 							float fontSize = ((COSFloat)operandStack.pop()).floatValue();
@@ -148,6 +148,8 @@ public class PagedOrderSplitter {
 						case "ET": // End Text Object
 							if (outStream != null) {
 								outStream.endText();
+								outStream.close();
+								outStream = null;
 							}
 							break;
 							
@@ -156,6 +158,13 @@ public class PagedOrderSplitter {
 						// a preceding text object. Ride its coat tails and write
 						// these operations to the same page as the preceding text
 						// object.
+						case "m":  // Begin New Subpath
+							float moveToY = ((COSFloat)operandStack.pop()).floatValue();
+							float moveToX = ((COSFloat)operandStack.pop()).floatValue();
+							if (outStream != null) {
+								outStream.moveTo(moveToX, moveToY);
+							}
+							break;
 						case "re": // Append Rectangle To Path
 							float rectHeight = ((COSFloat)operandStack.pop()).floatValue();
 							float rectWidth = ((COSFloat)operandStack.pop()).floatValue();
@@ -163,6 +172,13 @@ public class PagedOrderSplitter {
 							float rectX = ((COSFloat)operandStack.pop()).floatValue();
 							if (outStream != null) {
 								outStream.addRect(rectX, rectY, rectWidth, rectHeight);
+							}
+							break;
+						case "l":  // Append Straight Line
+							float lineY = ((COSFloat)operandStack.pop()).floatValue();
+							float lineX = ((COSFloat)operandStack.pop()).floatValue();
+							if (outStream != null) {
+								outStream.lineTo(lineX, lineY);
 							}
 							break;
 						case "G":  // Set Gray Level
@@ -175,6 +191,43 @@ public class PagedOrderSplitter {
 									float grayLevelFloat = ((COSFloat)grayLevelObject).floatValue();
 									outStream.setStrokingColor(grayLevelFloat);
 								}
+							}
+							break;
+						case "g":  // Set Non-Stroking Gray Level
+							Object nonStrokingGrayLevelObject = operandStack.pop();
+							if (outStream != null) {
+								if (nonStrokingGrayLevelObject instanceof COSInteger) {
+									int nonStrokingGrayLevelInt = ((COSInteger)nonStrokingGrayLevelObject).intValue();
+									outStream.setStrokingColor(nonStrokingGrayLevelInt);
+								} else if (nonStrokingGrayLevelObject instanceof COSFloat) {
+									double nonStrokingGrayLevelDouble = ((COSFloat)nonStrokingGrayLevelObject).doubleValue();
+									outStream.setStrokingColor(nonStrokingGrayLevelDouble);
+								}
+							}
+							break;
+						case "J":  // Set Line Cap Style
+							int capStyle = ((COSInteger)operandStack.pop()).intValue();
+							if (outStream != null) {
+								outStream.setLineCapStyle(capStyle);
+							}
+							break;
+						case "j":  // Set Line Join
+							int lineJoinStyle = ((COSInteger)operandStack.pop()).intValue();
+							if (outStream != null) {
+								outStream.setLineJoinStyle(lineJoinStyle);
+							}
+							break;
+						case "d":  // Set Line Dash
+							int lineDashPhase = ((COSInteger)operandStack.pop()).intValue();
+							float[] lineDashPattern = ((COSArray)operandStack.pop()).toFloatArray();
+							if (outStream != null) {
+								outStream.setLineDashPattern(lineDashPattern, lineDashPhase);
+							}
+							break;
+						case "w":  // Set Line Width
+							float lineWidth = ((COSFloat)operandStack.pop()).floatValue();
+							if (outStream != null) {
+								outStream.setLineWidth(lineWidth);
 							}
 							break;
 						case "Do": // Invoke Named XObject
@@ -263,8 +316,7 @@ public class PagedOrderSplitter {
 		// Find or create the page
 		List<PDPage> pages = outDoc.getDocumentCatalog().getAllPages();
 		while (pageIndex >= pages.size()) {
-			PDPage page = new PDPage();
-			outDoc.addPage(page);
+			outDoc.addPage(new PDPage());
 			pages = outDoc.getDocumentCatalog().getAllPages();
 		}
 		return pages.get(pageIndex);
