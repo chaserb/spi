@@ -33,9 +33,11 @@ public class PagedOrderSplitter {
 	static final Logger log = Logger.getLogger(PagedOrderSplitter.class
 			.getName());
 	static final int ORDERS_PER_PAGE = 5;
-	static final float CONTENT_MAX_Y = 694.52f;
-	static final float CONTENT_MIN_Y = 28.32f;
-	static final float CONTENT_RANGE = CONTENT_MAX_Y - CONTENT_MIN_Y;
+	static final double CONTENT_MAX_Y = 694.52d;
+	static final double CONTENT_MIN_Y = 28.32d;
+	static final double CONTENT_RANGE = CONTENT_MAX_Y - CONTENT_MIN_Y;
+	static final double ROW_HEIGHT = CONTENT_RANGE / ORDERS_PER_PAGE;
+	static final double PRECISION = 1000.0d;
 	static final PDFont DEFAULT_FONT = PDType1Font.HELVETICA;
 
 	private PDDocument inDoc;
@@ -78,8 +80,8 @@ public class PagedOrderSplitter {
 			List<Object> inTokens = page.getContents().getStream().getStreamTokens();
 			PDPage outPage = null;
 			PDPageContentStream outStream = null;
-			float outPageYCursor = 0.0f;
-			float outPageXCursor = 0.0f;
+			double outPageYCursor = 0.0f;
+			double outPageXCursor = 0.0f;
 			Stack<Object> operandStack = new Stack<Object>();
 			
 			for (Iterator<Object> iter = inTokens.iterator(); iter.hasNext();) {
@@ -112,8 +114,8 @@ public class PagedOrderSplitter {
 							outPageXCursor = 0.0f;
 							break;		
 						case "TD": // Move Text Position
-							float textY = ((COSFloat)operandStack.pop()).floatValue();
-							float textX = ((COSFloat)operandStack.pop()).floatValue();
+							double textY = ((COSFloat)operandStack.pop()).doubleValue();
+							double textX = ((COSFloat)operandStack.pop()).doubleValue();
 							if (outStream != null) {
 								outStream.endText();
 								outStream.close();
@@ -127,7 +129,7 @@ public class PagedOrderSplitter {
 								outStream.beginText();
 							}
 							if (outStream != null) {
-								outStream.moveTextPositionByAmount(textX + outPageXCursor, textY + outPageYCursor);
+								outStream.moveTextPositionByAmount((float)(textX + outPageXCursor), (float)(textY + outPageYCursor));
 							}
 							outPageYCursor += textY;
 							outPageXCursor += textX;
@@ -308,7 +310,7 @@ public class PagedOrderSplitter {
 	 *         is outside the expected range.
 	 */
 	@SuppressWarnings("unchecked")
-	protected PDPage getPageForObject(int objectPageNum, float objectYPosition) {
+	protected PDPage getPageForObject(int objectPageNum, double objectYPosition) {
 		// Determine what page the object *should* land on
 		int pageIndex = getPageIndexForObject(objectPageNum, objectYPosition);
 		// Check the object is within the expected vertical range
@@ -336,17 +338,17 @@ public class PagedOrderSplitter {
 	 *         output document. If the value falls outside the expected content
 	 *         range, return -1
 	 */
-	protected int getPageIndexForObject(int objectPageNum, float objectYPosition) {
+	protected int getPageIndexForObject(int objectPageNum, double objectYPosition) {
 		// Ensure valid page number
 		if (objectYPosition < CONTENT_MIN_Y || objectYPosition > CONTENT_MAX_Y) {
 			return -1;
 		}
 		// Determine the vertical position within the expected content range
-		float heightInRange = objectYPosition - CONTENT_MIN_Y;
+		double heightInRange = objectYPosition - CONTENT_MIN_Y;
+		heightInRange = (Math.round(heightInRange * PRECISION) - 1) / PRECISION;
 		// Determine the page number by calculating the ratio of its position
 		// to the content range's height, and rounding any remainders up.
-		int pageIndex = ORDERS_PER_PAGE
-				- (int) Math.ceil(ORDERS_PER_PAGE * heightInRange
+		int pageIndex = ORDERS_PER_PAGE - (int) Math.ceil(ORDERS_PER_PAGE * heightInRange
 						/ CONTENT_RANGE);
 		// Account for orders on previous pages
 		return pageIndex + (objectPageNum * ORDERS_PER_PAGE);

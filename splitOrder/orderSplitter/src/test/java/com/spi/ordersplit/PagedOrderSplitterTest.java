@@ -2,13 +2,10 @@ package com.spi.ordersplit;
 
 import static com.spi.ordersplit.PagedOrderSplitter.CONTENT_MAX_Y;
 import static com.spi.ordersplit.PagedOrderSplitter.CONTENT_MIN_Y;
-import static com.spi.ordersplit.PagedOrderSplitter.CONTENT_RANGE;
-import static com.spi.ordersplit.PagedOrderSplitter.ORDERS_PER_PAGE;
-import static com.spi.test.util.ThrowableCaptor.captureThrowable;
+import static com.spi.ordersplit.PagedOrderSplitter.ROW_HEIGHT;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,7 +30,6 @@ public class PagedOrderSplitterTest {
 	public static final File TEST_OUT_FILE = new File("./src/test/resources/INSPI_Report_2015-06-05_23.30.32.processed.pdf");
 	public static final File TEST_SIMPLE_FILE = new File("./src/test/resources/simple.pdf"); 
 	public static final float SMIDGE = 0.01f;
-	public static final float ROW_HEIGHT = CONTENT_RANGE / ORDERS_PER_PAGE;
 	
 	public PDDocument inDoc;
 	public PDDocument outDoc;
@@ -53,11 +49,11 @@ public class PagedOrderSplitterTest {
 	public void testPageIndexForObjectOutOfBounds() {
 		PagedOrderSplitter splitter = new PagedOrderSplitter(inDoc);
 		
-		Throwable beyondMax = captureThrowable(() -> splitter.getPageIndexForObject(0, CONTENT_MAX_Y + SMIDGE));
-		Throwable belowMin = captureThrowable(() -> splitter.getPageIndexForObject(0, CONTENT_MIN_Y - SMIDGE));
+		int beyondMax = splitter.getPageIndexForObject(0, CONTENT_MAX_Y + SMIDGE);
+		int belowMin = splitter.getPageIndexForObject(0, CONTENT_MIN_Y - SMIDGE);
 
-		assertTrue(beyondMax instanceof IllegalArgumentException);
-		assertTrue(belowMin instanceof IllegalArgumentException);
+		assertEquals(-1, beyondMax);
+		assertEquals(-1, belowMin);
 	}
 	
 	@Test
