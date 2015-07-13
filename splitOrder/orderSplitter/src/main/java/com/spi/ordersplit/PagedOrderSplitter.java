@@ -30,12 +30,12 @@ import org.apache.pdfbox.util.PDFOperator;
  */
 public class PagedOrderSplitter {
 
-	static final Logger log = Logger.getLogger(PagedOrderSplitter.class
-			.getName());
+	static final Logger log = Logger.getLogger(PagedOrderSplitter.class.getName());
 	static final int ORDERS_PER_PAGE = 5;
 	static final double CONTENT_MAX_Y = 694.52d;
 	static final double CONTENT_MIN_Y = 28.32d;
 	static final double CONTENT_RANGE = CONTENT_MAX_Y - CONTENT_MIN_Y;
+	static final double MOVE_CONTENT_TO_TOP = 80.0d;
 	static final double ROW_HEIGHT = CONTENT_RANGE / ORDERS_PER_PAGE;
 	static final double PRECISION = 1000.0d;
 	static final PDFont DEFAULT_FONT = PDType1Font.HELVETICA;
@@ -110,9 +110,9 @@ public class PagedOrderSplitter {
 						case "BT": // Begin Text
 							outPage = null;
 							outStream = null;
-							outPageYCursor = 0.0f;
-							outPageXCursor = 0.0f;
-							break;		
+							outPageYCursor = 0.0f; // Keeps track of multiple TD requests in a single
+							outPageXCursor = 0.0f; // text block, which start relative to a 0,0 origin and
+							break;		           // then proceed relative to each previous "move text"
 						case "TD": // Move Text Position
 							double textY = ((COSFloat)operandStack.pop()).doubleValue();
 							double textX = ((COSFloat)operandStack.pop()).doubleValue();
@@ -121,15 +121,20 @@ public class PagedOrderSplitter {
 								outStream.close();
 								outStream = null;
 							}
-							outPage = getPageForObject(pageNum, textY + outPageYCursor);
+							int outPageIndex = getPageIndexForObject(pageNum, textY + outPageYCursor); 
+							outPage = getPageAtIndex(outPageIndex);
 							if (outPage != null) {
 								outPage.setResources(page.findResources());
 								outStream = new PDPageContentStream(outDoc, outPage, true, true);
-								outStream.setFont(DEFAULT_FONT, 8.0f);
-								outStream.beginText();
+								outStream.setFont(DEFAULT_FONT, 8.0f); // Set a default or NO text will show
+								outStream.beginText();                 // up if you start drawing strings
 							}
 							if (outStream != null) {
-								outStream.moveTextPositionByAmount((float)(textX + outPageXCursor), (float)(textY + outPageYCursor));
+								float xTranslation = (float)(textX + outPageXCursor);
+								float yTranslation = (float)(textY + outPageYCursor);
+								yTranslation += (outPageIndex % ORDERS_PER_PAGE) * ROW_HEIGHT;
+								yTranslation += MOVE_CONTENT_TO_TOP;
+								outStream.moveTextPositionByAmount(xTranslation, yTranslation);
 							}
 							outPageYCursor += textY;
 							outPageXCursor += textX;
@@ -295,24 +300,15 @@ public class PagedOrderSplitter {
 	}
 
 	/**
-	 * Returns a destination page for a certain object read from the input
-	 * document. Which destination page to return is a function of the object's
-	 * location in the input document, including its page number and Y-axis
-	 * location on that page.
+	 * Returns a destination page for a given index, creating any intermediate
+	 * pages as necessary.
 	 * 
-	 * @param objectPageNum
-	 *            the 0-index number of the page where the object is found in
-	 *            the input document
-	 * @param originPageYLocation
-	 *            the Y-axis location of the object on the page from the input
-	 *            document
-	 * @return the destination page for this object, or null if the text object
-	 *         is outside the expected range.
+	 * @param pageIndex
+	 *            the 0-index number of the desired page
+	 * @return the requested page, or null if pageIndex is less than zero.
 	 */
 	@SuppressWarnings("unchecked")
-	protected PDPage getPageForObject(int objectPageNum, double objectYPosition) {
-		// Determine what page the object *should* land on
-		int pageIndex = getPageIndexForObject(objectPageNum, objectYPosition);
+	protected PDPage getPageAtIndex(int pageIndex) {
 		// Check the object is within the expected vertical range
 		if (pageIndex < 0) { return null; }
 		// Find or create the page

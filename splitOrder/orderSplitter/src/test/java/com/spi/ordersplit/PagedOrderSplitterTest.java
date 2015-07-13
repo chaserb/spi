@@ -115,8 +115,8 @@ public class PagedOrderSplitterTest {
 	public void testGetPageOnOrderFromFirstPage() {
 		PagedOrderSplitter splitter = new PagedOrderSplitter(inDoc);
 		
-		PDPage page0 = splitter.getPageForObject(0, CONTENT_MAX_Y - SMIDGE);
-		PDPage page4 = splitter.getPageForObject(0, CONTENT_MIN_Y + SMIDGE);
+		PDPage page0 = splitter.getPageAtIndex(splitter.getPageIndexForObject(0, CONTENT_MAX_Y - SMIDGE));
+		PDPage page4 = splitter.getPageAtIndex(splitter.getPageIndexForObject(0, CONTENT_MIN_Y + SMIDGE));
 		
 		assertNotNull(page0);
 		assertNotNull(page4);
@@ -130,8 +130,8 @@ public class PagedOrderSplitterTest {
 	public void testGetPageOnOrderFromSecondPage() {
 		PagedOrderSplitter splitter = new PagedOrderSplitter(inDoc);
 		
-		PDPage page5 = splitter.getPageForObject(1, CONTENT_MAX_Y - SMIDGE);
-		PDPage page9 = splitter.getPageForObject(1, CONTENT_MIN_Y + SMIDGE);
+		PDPage page5 = splitter.getPageAtIndex(splitter.getPageIndexForObject(1, CONTENT_MAX_Y - SMIDGE));
+		PDPage page9 = splitter.getPageAtIndex(splitter.getPageIndexForObject(1, CONTENT_MIN_Y + SMIDGE));
 		
 		assertNotNull(page5);
 		assertNotNull(page9);
