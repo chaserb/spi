@@ -31,29 +31,6 @@
 	<build>
 		<plugins>
 			<plugin>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<configuration>
-					<archive>
-						<manifest>
-							<mainClass>com.spi.ordersplit.App</mainClass>
-						</manifest>
-					</archive>
-					<descriptorRefs>
-						<!-- Default assembly descriptor for building a super-jar -->
-						<descriptorRef>jar-with-dependencies</descriptorRef> 
-					</descriptorRefs>
-				</configuration>
-				<executions>
-					<execution>
-						<id>make-assembly</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal> 
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<executions>
