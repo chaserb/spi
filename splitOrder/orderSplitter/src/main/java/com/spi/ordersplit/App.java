@@ -39,7 +39,7 @@ public class App {
 			try {
 				File outFile = getOutFile(file);
 				log.info(() -> "Processing file: " + file);
-				log.info(() -> "     Writing to: " + outFile + "\n");
+				log.info(() -> "     Writing to: " + outFile);
 				PagedOrderSplitter splitter = new PagedOrderSplitter(PDDocument.load(file));
 				splitter.splitOrders();
 				splitter.getSplitDocument().save(outFile);
